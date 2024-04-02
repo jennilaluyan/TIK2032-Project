@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Agrandir;
+    src: url(Agrandir-GrandHeavy.otf);
+}
+
+body {
+    background-image: url(bg2.webp);
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: cornflowerblue;
+    font-size: 60px;
+    margin: 0; 
+}
+
+/* header */
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    font-size: 20px;
+  }
+
+.h1header {
+    color: lightblue;
+    font-family: Agrandir;
+}
+
+h1:first-of-type {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+/* Centering images */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.h3header{
+    font-size: 20px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: italic;
+}
